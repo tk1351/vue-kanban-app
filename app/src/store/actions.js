@@ -1,3 +1,4 @@
+/* eslint-disable */
 import * as types from './mutation-types'
 import { Auth, List, Task } from '../api'
 
@@ -19,5 +20,6 @@ export default {
   },
   logout: ({ commit }) => {
     throw new Error('logout action should be implemented')
-  },
+  }
 }
+/* eslint-disable */
